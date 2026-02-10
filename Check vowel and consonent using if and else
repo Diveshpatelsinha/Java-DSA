@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class VowelConsonent {
+    static void Check(char c){
+        if(c=='A'|| c=='E'||c=='I'||c=='O'||c=='U'){
+            System.out.print("Vowel");
+        }
+        else if(c=='a'|| c=='e'||c=='i'||c=='o'||c=='u'){
+             System.out.print("Vowel");
+        }
+        else{
+             System.out.print("Consonent");
+        }
+    }
+
+    public static void main(String[] args) {
+       Scanner sc = new Scanner(System.in);
+       
+       System.out.print("Enter the Character: ");
+       char c = sc.next().charAt(0);
+
+       Check(c);
+    }
+}
+

@@ -2,7 +2,7 @@ public class MedianOfTwoArrays{
 
 
     public static double findmedian(int[] a, int[] b){
-        int n = a.length + a.length;
+        int n = a.length + b.length;
         int[] merge = new int[n];
 
         int i = 0;
